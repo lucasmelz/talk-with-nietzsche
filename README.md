@@ -4,6 +4,8 @@
 
 The purpose of this project is allowing you to have a conversation with one of the most influential thinkers of human history. Well, it is not exactly him, but a large language model controlling a 3D Avatar and pretending that it is him... Well, close enough :)
 
+![Screenshot](screenshot.png)
+
 ## How to run the project
 
 1. First you will need a LLM API to control the Avatar. During development, I've been using the [Mistral 7B Instruct v0.2 - GGUF model](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF), which is good enough for a reliable Nietzsche impersonation. You can easily set up an API with this model by using [LM Studio] (https://lmstudio.ai/), which allows to run LLMs on your computer, entirely offline. Change the value of the llm_url constant on `frontend/src/constants/endpoints.ts` to make sure you are pointing to the correct endpoint of your LLM API.
